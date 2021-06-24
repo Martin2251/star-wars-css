@@ -5,10 +5,17 @@
   flex-wrap: wrap;
 }
 .card {
-  width: 30%;
+  width: calc(30% - 20px);
   border: 1px solid gray;
   margin: 10px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: aquamarine;
 }
